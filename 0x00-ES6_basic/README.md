@@ -1,0 +1,1 @@
+We begin specialization phase with the basics of ECMAScript 2015 commonly known as ES6
