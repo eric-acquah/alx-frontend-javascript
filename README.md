@@ -1,0 +1,1 @@
+This repo contains all projects done in ALX fronend short-specialization phase.
