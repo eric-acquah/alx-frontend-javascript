@@ -1,15 +1,11 @@
 export default function appendToEachArrayValue(array, appendString) {
-  // const clone = [];
-  let idx = '';
-  let value = '';
-  let i = 0;
+  const clone = [];
+  // let idx = '';
+  // let value = '';
 
-  for (idx of array) {
-    value = idx;
-    array[i] = appendString + value;
-    i += 1;
-    // clone.push(appendString + value);
+  for (const idx of array) {
+    clone.push(appendString + idx);
   }
 
-  return array;
+  return clone;
 }
