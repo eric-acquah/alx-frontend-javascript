@@ -7,7 +7,7 @@ export default function handleResponseFromAPI(promise) {
   };
 
   return promise
-    .then(() => successObj)
-    .finally(console.log('Got a response from the API'))
-    .catch(Error());
+    .then(() => successObj) // Return object if successful
+    .finally(console.log('Got a response from the API')) // log message after each fulfillment
+    .catch(() => Error()); // Return empty error object upon reject
 }
