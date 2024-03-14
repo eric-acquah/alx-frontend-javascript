@@ -1,0 +1,1 @@
+Practicing the act of strict typing with TypeScript
