@@ -12,3 +12,15 @@ interface Teacher {
 interface Directors  extends Teacher {
     numberOfReports: number;
 }
+
+interface printTeacherFunction {
+    (firstName: string, lastName: string): string;
+}
+
+let printTeacher: printTeacherFunction = function(firstName: string, lastName: string) {
+    return `${firstName[0]}. ${lastName}`;
+}
+
+const hold = printTeacher("Joe", "Kind");
+
+console.log(hold);
