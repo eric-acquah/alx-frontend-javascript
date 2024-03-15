@@ -20,7 +20,3 @@ interface printTeacherFunction {
 let printTeacher: printTeacherFunction = function(firstName: string, lastName: string) {
     return `${firstName[0]}. ${lastName}`;
 }
-
-const hold = printTeacher("Joe", "Kind");
-
-console.log(hold);
